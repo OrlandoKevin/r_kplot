@@ -16,6 +16,10 @@ kplot(x, ...)
 \item{x}{An object to be plotted.}
 
 \item{...}{Additional arguments to be passed to the plotting method.}
+
+\item{interactive}{\link{logical} If \code{TRUE}, the plot will be interactive.}
+
+\item{output_format}{\link{character} The output format for the plot.}
 }
 \value{
 A plot of the object \code{x}.

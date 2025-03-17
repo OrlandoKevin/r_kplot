@@ -16,6 +16,10 @@ kggplot(x, ...)
 \item{x}{An object to be plotted.}
 
 \item{...}{Additional arguments to be passed to the plotting method.}
+
+\item{vars}{\link{list} with the variables to be plotted.}
+
+\item{labels}{\link{list} with the labels for the variables.}
 }
 \description{
 This function is a generic method for plotting objects using ggplot2.

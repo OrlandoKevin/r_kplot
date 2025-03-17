@@ -4,12 +4,14 @@
 #' This function is a generic method for plotting objects using ggplot2.
 #'
 #' @param x An object to be plotted.
+#' @param vars [list] with the variables to be plotted.
+#' @param labels [list] with the labels for the variables.
 #' @param ... Additional arguments to be passed to the plotting method.
 #'
 #' @export
 #'
 #' @import ggplot2
-#' @importFrom dplyr rename
+#' @importFrom dplyr rename any_of
 #' @importFrom tidyr pivot_longer
 #'
 kggplot <- function(x, ...) {

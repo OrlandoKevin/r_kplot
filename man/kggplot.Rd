@@ -8,7 +8,7 @@
 \usage{
 kggplot(x, ...)
 
-\method{kggplot}{data.frame}(x, vars, labels, ...)
+\method{kggplot}{data.frame}(x, plot_type, vars, labels = NULL, ...)
 
 \method{kggplot}{kggplot}(x, ...)
 }

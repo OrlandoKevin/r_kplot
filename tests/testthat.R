@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(krplot)
+library(kplot)
 
-test_check("krplot")
+test_check("kplot")

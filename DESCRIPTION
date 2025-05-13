@@ -9,7 +9,8 @@ Authors@R:
 Description: What the package does (one paragraph).
 License: GPL-3
 Remotes: 
-    git::https://forgemia.inra.fr/umr-g-eau/fairify.git
+    git::https://forgemia.inra.fr/umr-g-eau/fairify.git,
+    git::https://github.com/davidcarayon/InraeThemes.git
 Imports:
     rlang,
     ggplot2,
